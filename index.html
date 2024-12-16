@@ -6,8 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework - 12</title>
     <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-B_SY1GJM.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-BDaiwwc1.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-DHKkklEn.css">
   </head>
   <body>
+    <form class="image-search-form" autocomplete="off">
+      <label>
+        <input
+          class="search"
+          type="text"
+          name="inputSearch"
+          placeholder="Search images..."
+          autofocus
+        />
+      </label>
+      <button class="search-btn" type="submit">Search</button>
+    </form>
+
+    <ul class="gallery"></ul>
+
+    <button class="load-more-btn">Load more</button>
+
+    <div class="loading-indicator"></div>
   </body>
 </html>
